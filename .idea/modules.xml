@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TFG_CCM.iml" filepath="$PROJECT_DIR$/.idea/TFG_CCM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snax-accelerators.iml" filepath="$PROJECT_DIR$/.idea/modules/snax-accelerators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snax-accelerators.snax-accelerators-build.iml" filepath="$PROJECT_DIR$/.idea/modules/snax-accelerators.snax-accelerators-build.iml" />
     </modules>
   </component>
 </project>
