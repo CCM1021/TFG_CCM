@@ -1,24 +1,11 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BlockGemmTest, org.scalatest.tools.Framework$$anon$1@4a7bc473, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BlockGemmTest, org.scalatest.tools.Framework$$anon$1@248f259c, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mBlockGemmTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mBlockGemm[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should pass basic functionality test *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  chiseltest.LiteralTypeException: don't know how to poke (BlockGemm.reset: IO[AsyncReset],Bool(true))[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.pokeInternal(package.scala:213)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.poke(package.scala:171)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at BlockGemmTest.$anonfun$new$3(BlockGemmTest.scala:12)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at BlockGemmTest.$anonfun$new$3$adapted(BlockGemmTest.scala:10)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.SimController.run(SimController.scala:124)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.$anonfun$runTest$2(Context.scala:30)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.runTest(Context.scala:30)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester.chiseltest$ChiselScalatestTester$$runTest(ChiselScalatestTester.scala:96)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:30)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 932 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should process input data correctly and measure performance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 9 seconds, 948 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
-[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
-[0m[[0m[31merror[0m] [0m[0m	BlockGemmTest[0m
-[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BlockGemmTest[0m
