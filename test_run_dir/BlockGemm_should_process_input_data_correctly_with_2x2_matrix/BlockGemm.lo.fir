@@ -3025,12 +3025,12 @@ circuit BlockGemm :
       reset => (reset, UInt<8>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 68:30]
     reg subtraction_b : UInt<8>, clock with :
       reset => (reset, UInt<8>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 69:30]
-    reg compute_fire_counter : UInt<96>, clock with :
-      reset => (reset, UInt<96>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 72:37]
+    reg compute_fire_counter : UInt<32>, clock with :
+      reset => (reset, UInt<32>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 72:37]
     reg d_output_ifvalid_counter : UInt<32>, clock with :
       reset => (reset, UInt<32>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 74:41]
-    reg d_output_counter : UInt<96>, clock with :
-      reset => (reset, UInt<96>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 76:33]
+    reg d_output_counter : UInt<64>, clock with :
+      reset => (reset, UInt<64>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 76:33]
     reg performance_counter : UInt<32>, clock with :
       reset => (reset, UInt<32>("h0")) @[\\src\\main\\scala\\BlockGemm.scala 78:36]
     reg needs_add_c : UInt<1>, clock with :
