@@ -124,29 +124,29 @@ module Tile(	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:40:7
   wire [32:0]  data_a_i_subtracted_7 = {io_data_a_i_7[31], io_data_a_i_7} - _GEN;	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15
   wire [32:0]  data_b_i_subtracted_7 = {io_data_b_i_7[31], io_data_b_i_7} - _GEN_0;	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:84:15
   wire [65:0]  mul_result =
-    {33'h0, data_a_i_subtracted_0[32], data_a_i_subtracted_0[32:1]}
-    * {33'h0, data_b_i_subtracted_0[32], data_b_i_subtracted_0[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_0[32]}}, data_a_i_subtracted_0[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_0[32]}}, data_b_i_subtracted_0[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_1 =
-    {33'h0, data_a_i_subtracted_1[32], data_a_i_subtracted_1[32:1]}
-    * {33'h0, data_b_i_subtracted_1[32], data_b_i_subtracted_1[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_1[32]}}, data_a_i_subtracted_1[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_1[32]}}, data_b_i_subtracted_1[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_2 =
-    {33'h0, data_a_i_subtracted_2[32], data_a_i_subtracted_2[32:1]}
-    * {33'h0, data_b_i_subtracted_2[32], data_b_i_subtracted_2[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_2[32]}}, data_a_i_subtracted_2[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_2[32]}}, data_b_i_subtracted_2[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_3 =
-    {33'h0, data_a_i_subtracted_3[32], data_a_i_subtracted_3[32:1]}
-    * {33'h0, data_b_i_subtracted_3[32], data_b_i_subtracted_3[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_3[32]}}, data_a_i_subtracted_3[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_3[32]}}, data_b_i_subtracted_3[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_4 =
-    {33'h0, data_a_i_subtracted_4[32], data_a_i_subtracted_4[32:1]}
-    * {33'h0, data_b_i_subtracted_4[32], data_b_i_subtracted_4[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_4[32]}}, data_a_i_subtracted_4[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_4[32]}}, data_b_i_subtracted_4[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_5 =
-    {33'h0, data_a_i_subtracted_5[32], data_a_i_subtracted_5[32:1]}
-    * {33'h0, data_b_i_subtracted_5[32], data_b_i_subtracted_5[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_5[32]}}, data_a_i_subtracted_5[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_5[32]}}, data_b_i_subtracted_5[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_6 =
-    {33'h0, data_a_i_subtracted_6[32], data_a_i_subtracted_6[32:1]}
-    * {33'h0, data_b_i_subtracted_6[32], data_b_i_subtracted_6[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_6[32]}}, data_a_i_subtracted_6[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_6[32]}}, data_b_i_subtracted_6[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [65:0]  mul_result_7 =
-    {33'h0, data_a_i_subtracted_7[32], data_a_i_subtracted_7[32:1]}
-    * {33'h0, data_b_i_subtracted_7[32], data_b_i_subtracted_7[32:1]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:65:38, :81:15, :84:15, :94:49, :95:49, :98:36
+    {33'h0, {2{data_a_i_subtracted_7[32]}}, data_a_i_subtracted_7[32:2]}
+    * {33'h0, {2{data_b_i_subtracted_7[32]}}, data_b_i_subtracted_7[32:2]};	// src/main/scala/snax_acc/gemm/GemmTileArray.scala:81:15, :84:15, :94:49, :95:49, :98:36
   wire [127:0] mul_add_result =
     {{62{mul_result[65]}}, mul_result} + {{62{mul_result_1[65]}}, mul_result_1}
     + {{62{mul_result_2[65]}}, mul_result_2} + {{62{mul_result_3[65]}}, mul_result_3}
